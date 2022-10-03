@@ -14,8 +14,8 @@ if 'jury' not in st.session_state:
 butt=st.button('Configure',disabled=st.session_state.jury,help='Press This And Wait A Few Seconds If You Are Running The Website For The First Time')
 if butt==True:
     os.system('git clone https://github.com/WongKinYiu/yolov7')
-    os.system('%cd yolov7')
-    os.system('pip install -r requirements.txt')
+    # os.system('%cd yolov7')
+    # os.system('pip install -r requirements.txt')
     os.system('pip install -r yolov7/requirements.txt')
     os.system('ls')
     os.system('wget https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7.pt')
