@@ -26,8 +26,8 @@ if butt==True:
     st.session_state.jury = True
 
 
-bob='python /app/dawg/yolov7/detect.py --weights /app/dawg/yolov7.pt --classes 16 --conf 0.25 --img-size 640 --source  /app/dawg/Images/seesh.png  --exist-ok --save-conf --save-txt'
-tusk='python /app/dawg/yolov7/detect.py --weights /app/dawg/yolov7.pt --classes 16 --conf 0.25 --img-size 640 --source /app/dawg/Images/seesh.png --exist-ok --save-conf --save-txt'
+bob='python /yolov7/detect.py --weights /yolov7.pt --classes 16 --conf 0.25 --img-size 640 --source  /Images/seesh.png  --exist-ok --save-conf --save-txt'
+tusk='python /yolov7/detect.py --weights /yolov7.pt --classes 16 --conf 0.25 --img-size 640 --source /Images/seesh.png --exist-ok --save-conf --save-txt'
 
 
 pic=st.camera_input('Take A Picture')
