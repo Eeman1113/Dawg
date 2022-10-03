@@ -40,3 +40,6 @@ thop  # FLOPs computation
 # albumentations>=1.0.3
 # pycocotools>=2.0  # COCO mAP
 # roboflow
+
+RUN apt-get update
+RUN apt-get install ffmpeg libsm6 libxext6  -y
