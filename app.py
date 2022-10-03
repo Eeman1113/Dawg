@@ -40,7 +40,7 @@ if pic:
         os.system(bob)
         st.text('Detected Dawgs')
         img=st.image('runs/detect/exp/seesh.png')
-        
+        print('issue1')
 
         #count
         f=open("runs/detect/exp/labels/seesh.txt",'r')
