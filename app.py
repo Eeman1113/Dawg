@@ -16,6 +16,7 @@ if butt==True:
     os.system('git clone https://github.com/WongKinYiu/yolov7')
     os.system('%cd yolov7')
     os.system('pip install -r requirements.txt')
+    os.system('pip install -r yolov7/requirements.txt')
     os.system('ls')
     os.system('wget https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7.pt')
     os.system('pip install opencv_python')
