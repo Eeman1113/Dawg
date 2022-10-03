@@ -36,7 +36,7 @@ if pic:
         file.write(pic.getbuffer())
         # os.system('apt-get update')
         # os.system('apt-get install ffmpeg libsm6 libxext6  -y')
-        os.system('pip install opencv-python')
+        # os.system('pip install opencv-python')
         os.system(bob)
         st.text('Detected Dawgs')
         img=st.image('runs/detect/exp/seesh.png')
