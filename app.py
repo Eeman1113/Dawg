@@ -34,9 +34,12 @@ pic=st.camera_input('Take A Picture')
 if pic:
     with open ('Images/seesh.png','wb') as file:
         file.write(pic.getbuffer())
+        os.system('pt-get update')
+        os.system('apt-get install ffmpeg libsm6 libxext6  -y')
         os.system(bob)
         st.text('Detected Dawgs')
         img=st.image('runs/detect/exp/seesh.png')
+        
 
         #count
         f=open("runs/detect/exp/labels/seesh.txt",'r')
