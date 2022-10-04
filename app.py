@@ -30,7 +30,7 @@ if butt==True:
 
 #________________________________________________________________________________________________________________________
 
-    #making essential installs using zhc commands 
+    #making essential installs using zhc com mands 
     os.system('ls')
     os.system('wget https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7.pt')
     os.system('pip install opencv_python')
@@ -42,10 +42,10 @@ if butt==True:
 #________________________________________________________________________________________________________________________
 
 #bob represents the AI command 
-bob='python ../yolov7/detect.py --weights ../yolov7.pt --classes 16 --conf 0.25 --img-size 640 --source  ../Images/seesh.png  --exist-ok --save-conf --save-txt'
+bob='python yolov7/detect.py --weights yolov7.pt --classes 16 --conf 0.25 --img-size 640 --source  Images/seesh.png  --exist-ok --save-conf --save-txt'
 # tusk='python /yolov7/detect.py --weights /yolov7.pt --classes 16 --conf 0.25 --img-size 640 --source /Images/seesh.png --exist-ok --save-conf --save-txt'
 
-print('')
+
 #________________________________________________________________________________________________________________________
 
 #getting camera input
