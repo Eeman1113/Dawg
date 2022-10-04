@@ -42,7 +42,7 @@ if butt==True:
 #________________________________________________________________________________________________________________________
 
 #bob represents the AI command 
-bob='python yolov7/detect.py --weights yolov7.pt --classes 16 --conf 0.25 --img-size 640 --source  Images/seesh.png  --exist-ok --save-conf --save-txt'
+bob='python ../yolov7/detect.py --weights ../yolov7.pt --classes 16 --conf 0.25 --img-size 640 --source  ../Images/seesh.png  --exist-ok --save-conf --save-txt'
 # tusk='python /yolov7/detect.py --weights /yolov7.pt --classes 16 --conf 0.25 --img-size 640 --source /Images/seesh.png --exist-ok --save-conf --save-txt'
 
 print('')
